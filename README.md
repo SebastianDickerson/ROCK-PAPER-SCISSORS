@@ -1,6 +1,6 @@
 # Frontend Mentor - Rock, Paper, Scissors
 
-This project was based of the below.
+This project was based of the below. Test at: https://sebastiandickerson.github.io/ROCK-PAPER-SCISSORS/ 
 
 ## Welcome! 👋
 
