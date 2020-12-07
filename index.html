@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+</head>
+<body>
+
+  <section class="game">
+    <div class="score-container">
+      <div class="title">
+        <h1>ROCK</h1>
+        <h1>PAPER</h1>
+        <h1>SCISSORS</h1>
+      </div>
+      <div class="score">
+        <div class="player-score">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="comp-score">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro">
+      <button>Let's play!</button>
+    </div>
+
+    <div class="match fadeOut">
+      <h2 class="winner">Choose an option</h2>
+      <div class="hands">
+        <img class="player-hand" src="./images/rock.svg" alt="">
+        <img class="comp-hand" src="./images/rock.svg" alt="">
+      </div>
+      <div class="options">
+        <button id="rock" class="icon">
+          <img src="./images/rock.svg" alt="">
+        </button>
+        <button id="paper" class="icon">
+          <img src="./images/paper.svg" alt="">
+        </button>
+        <button id="scissors" class="icon">
+          <img src="./images/scissors.svg" alt="">
+        </button>
+        
+      </div>
+    </div>
+
+  </section>
+  
+ 
+
+  <script src="index.js"></script>
+
+  
+
+</body>
+</html>
